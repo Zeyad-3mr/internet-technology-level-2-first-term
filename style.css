@@ -26,12 +26,7 @@ li a.active{
     background-color: rgb(76, 175,80);
 color : white;
 }
-div{
-    border: 3px dotted;
-    border-radius: 15px ;
-    box-shadow: 15px 10px 0px dimgray;
-background-image: radial-gradient(white,blue);
-}
+
 table{
     width: 100%;
     border-collapse: collapse;
@@ -47,3 +42,23 @@ thead tr{
 tbody tr:nth-child(odd) {
 background-color: lightgrey;
 }
+div:not(.searchbar){
+border:3px;
+border-style: dotted;
+border-radius: 15px;
+box-shadow: 25px 25px 25px dimgray;
+background-image: linear-gradient(red,yellow);
+}
+.searchbar{
+    width: 20%;
+    height: auto;
+   display: flex;
+    border: 1px;
+    border-style: solid;
+    border-color: #dfe1e5;
+    margin: 8px auto;
+    border-radius: 24px; /* changed from 30 to 15*/
+    padding: 0px 10px;
+    display: flexbox;
+}
+
